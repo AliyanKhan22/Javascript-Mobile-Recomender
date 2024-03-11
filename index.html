@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Mobile Recomender</title>
+</head>
+<body>
+    <script>
+        alert("Welcome to Mobile Recomender")
+        alert("Please answer the following qustion to help us suggest perfect mobile")
+        var userValue = prompt('What is your budget low/medium/high')
+        if(userValue == 'low'){
+        document.write('20,000 Price, ')
+        }
+        else if(userValue =='medium'){
+        document.write('35,000 Price, ')
+        }
+        else if(userValue =='high'){
+        document.write('90,000 Price, ')
+        }
+        var userValue2 = prompt('Which operating system do you prefer \n Android/ios')
+        if(userValue2 =='Android'){
+        document.write("Realme (Android), ")
+        }
+        else if(userValue2 == 'ios'){
+        document.write('Iphone (ios), ')
+        }
+        var userValue3 = prompt('What camera quality do you need normal/high')
+        if(userValue3 == 'normal'){
+        document.write('30 Mpx Dual Camera, ')
+        }
+        else if(userValue3 == 'high'){
+        document.write('108 Mpx Triple Camera + Night Mode + Ultra Zoom, ')
+        }
+        var userValue4 = prompt('How is the mobile battery average/longer')
+        if(userValue4 == 'average'){
+        document.write('3200 mah battery, ')
+        }
+        else if(userValue4 =='longer'){
+        document.write('6000 mah batttery longer, ')
+        }
+        var userValue5 = prompt('What screen size do you need small/medium/large')
+        if(userValue5 == 'small'){
+        document.write('4.3 inches Screen Size, ')
+        }
+        else if(userValue5 == 'medium'){
+        document.write('5.2 inches Screen Size, ')
+        }
+        else if(userValue5 == 'large'){
+        document.write('6.9 inches Screen Size, ')
+        }
+        else{
+        document.write("Please Recoomended")
+        }
+    </script>
+</body>
+</html>
